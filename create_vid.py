@@ -17,7 +17,7 @@ import random
 
 # Create a client using the credentials and region defined in the [adminuser]
 # section of the AWS credentials file (~/.aws/credentials).
-session = Session(aws_access_key_id='AKIAWLIJRFR3TRJ7U3PI', aws_secret_access_key='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', region_name='us-east-1')
+session = none
 polly = session.client("polly")
 
 def tts(text):
